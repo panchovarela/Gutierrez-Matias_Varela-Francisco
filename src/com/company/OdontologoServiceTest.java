@@ -13,8 +13,6 @@ import java.util.List;
 
 public class OdontologoServiceTest {
 
-    private DAO<Odontologo> odontologoDAOH2 = new OdontologoDAOH2();
-    private DAO<Odontologo> odontologoDAOEnMemoria = new OdontologoDAOEnMemoria();
     private OdontologoService odontologoService = new OdontologoService();
     private Database database = new Database();
 
